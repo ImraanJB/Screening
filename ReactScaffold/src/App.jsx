@@ -4,7 +4,7 @@ class App extends Component {
  render() {
   return(
    <div>
-    <h1> Production Enviornment {process.env.NODE_ENV}</h1>
+    <h1> Enviornment {process.env.NODE_ENV}</h1>
    </div>
   );
  }
